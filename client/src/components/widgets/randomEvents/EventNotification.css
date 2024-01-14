@@ -1,0 +1,102 @@
+.event-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Gap between columns */
+  }
+  
+  .event-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .event-description {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .event-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative; /* Add this for positioning the dot */
+  }
+  
+  .event-list li.unread::before {
+    content: "•"; /* Unicode bullet point */
+    color: red;
+    font-size: 36px; /* Adjust the font size to make the dot larger */
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    margin-right: 32px;
+  }
+  
+    /* Add this to your EventNotification.css or a separate CSS file */
+.scrollable-title-box {
+    max-height: 200px; /* Adjust the max height as needed */
+    overflow-y: hidden;
+    border-color: 'red';
+    border: 20px;
+  }
+  
+  .scrollable-title {
+    white-space: nowrap;
+  }
+
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 11px; /* Reduced font size */
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 4px .4em; /* Reduced padding */
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+  

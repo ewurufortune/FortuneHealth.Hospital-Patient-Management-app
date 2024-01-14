@@ -1,0 +1,376 @@
+body {
+  background-color: grey; /* Set your desired grey color here */
+  margin: 0; /* Reset default body margin */
+  padding: 0; /* Reset default body padding */
+  width: 100vw; /* Make the body element 100% of the viewport width */
+}
+
+.save-game-button{
+    margin-right: 156px;
+    margin-bottom: -10px;
+    color:lightgreen;
+    position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .save-game-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+
+  /* SCROLLBAR */
+  /* Customize scrollbar track */
+/* Track color */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Thumb color */
+::-webkit-scrollbar-thumb {
+    background: #333; /* Darker color for the thumb */
+    border-radius: 10px;
+    width: 1px; /* Adjust the width for a thinner scrollbar */
+}
+
+/* Button color */
+::-webkit-scrollbar-button {
+    background: #ccc;
+}
+
+/* Thumb color on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111; /* Darker color for thumb on hover */
+}
+
+  
+
+  /* style antd elements */
+  /* Customize the border color for Ant Design components */
+
+/* Example for Select */
+.ant-select-selector {
+    border-color: #1890ff; /* Bright blue border color */
+  }
+  
+  /* Example for Button */
+  .ant-btn {
+    border-color: #1890ff; /* Bright blue border color */
+  }
+  
+  /* Example for Checkbox */
+  .ant-checkbox-wrapper {
+    border-color: #1890ff; /* Bright blue border color */
+  }
+
+  /* Customize the border color of the radio buttons */
+.ant-radio-wrapper {
+    border-color: #1890ff; /* Bright blue border color */
+  }
+/* CSS to increase the brightness of the placeholder text */
+/* Increase the brightness of the placeholder text */
+.ant-select-selector .ant-select-selection-placeholder {
+    color: rgba(128, 128, 128)
+    ; /* Light white color with transparency */
+  }
+  
+   /* Change the border color of the checkbox circle */
+   .ant-checkbox-checked .ant-checkbox-inner {
+    background-color:  green !important;;
+    border-color:  green !important;;
+  }
+
+
+  /* Hide the scrollbar for the category-filter element */
+.category-filter::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar width */
+  }
+
+
+  /* BOLDEN ALL TEXT */
+  /* Apply bold font-weight to all text inside paragraphs */
+p {
+    font-weight: bold;
+  }
+  
+  /* Apply bold font-weight to all text inside headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  /* Apply bold font-weight to all text inside span elements */
+  span {
+    font-weight: bold;
+  }
+  
+  /* Apply bold font-weight to all text inside div elements */
+  div {
+    font-weight: bold;
+  }
+  
+  /* Apply bold font-weight to all text inside other specific elements as needed */
+
+  
+  .rotating-border {
+    width: fit-content;
+    position: relative;
+    border: 2px solid;
+    border-radius: 40px !important;
+    border-image: linear-gradient(90deg, #ffa500, #0f9d58);
+    border-image-slice: 1;
+    animation: rotateBorderColor 5s linear infinite;
+    padding: 10px;
+  }
+  
+  @keyframes rotateBorderColor {
+    0% {
+      border-image-source: linear-gradient(90deg, #ffa500, #0f9d58);
+    }
+    25% {
+      border-image-source: linear-gradient(90deg, #0f9d58, #ffa500);
+    }
+    50% {
+      border-image-source: linear-gradient(90deg, #ffa500, #0f9d58);
+    }
+    75% {
+      border-image-source: linear-gradient(90deg, #0f9d58, #ffa500);
+    }
+    100% {
+      border-image-source: linear-gradient(90deg, #ffa500, #0f9d58);
+    }
+  }
+  
+
+  .participant-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    gap: 20px; /* Adjust the gap between elements as needed */
+  }
+  
+/* CSS for changing the placeholder color to light grey */
+/* Target Input placeholder */
+.custom-input input::placeholder {
+    color: lightgrey !important;
+  }
+  
+  /* Target TextArea placeholder */
+  .custom-textarea textarea::placeholder {
+    color: lightgrey !important;
+  }
+  
+  /* SORT BY BUTTON */
+
+  /* CSS */
+  .button-70 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #3D3D3D;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-11:focus {
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+  }
+/* CSS */
+.list-item:hover {
+  background-color: #9CFF2E;
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+  /* CSS */
+.like-button:hover {
+  background-color: lightgreen;
+}
+
+/* LANDING PAGE */
+/* PLAY BUTTON */
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color:#111;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* Default styles for larger screens */
+.ant-typography h1 {
+  font-size: 100px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .ant-typography h1 {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+
+
+/* CSS */
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 0px;
+  min-height: 0px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+/* Media Queries */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .ant-btn {
+    font-size: 50%; /* Reduce the font size by 50% on mobile screens */
+    padding: 4px 8px; /* Adjust padding as needed */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .ant-select {
+    width: 50%; /* Reduce the width by 50% on mobile screens */
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .tabHeader {
+    font-size: 50%; /* Reduce the font size for small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Reduce the padding for content on smaller screens */
+  .tabHeader {
+    font-size: 8px;
+  }
+
+  /* Reduce the overall padding for guide and aim */
+  .tabContent {
+    font-size: 8px; /* Reduce the font size for text content on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust the width and height for smaller screens */
+  img {
+    width: 30%; /* Adjust the desired width for smaller screens */
+    height: auto; /* Set height to 'auto' for responsive scaling */
+  }
+}
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .content-container {
+    width: 50%; /* Content takes up 100% of the available width on smaller screens */
+    padding: 1rem; /* Adjust padding as needed for smaller screens */
+  }
+
+  .feature-content {
+    font-size: 5px; /* 50% smaller font size for feature content on smaller screens */
+  }
+}
