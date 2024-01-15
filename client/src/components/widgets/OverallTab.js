@@ -119,7 +119,7 @@ export default function OverallTab({ isDarkMode }) {
       });
 
       const response = await fetch(
-        "http://localhost:3001/auth/replace",
+        "https://hospital-patient-database-management.onrender.com/auth/replace",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

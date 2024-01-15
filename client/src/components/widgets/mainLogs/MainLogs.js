@@ -87,7 +87,7 @@ export default function MainLogs() {
   const fetchPosts = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch(`http://localhost:3001/auth/getPosts`, {
+      const response = await fetch(`https://hospital-patient-database-management.onrender.com/auth/getPosts`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -118,7 +118,7 @@ export default function MainLogs() {
     const isLiked = likedPosts.includes(postId);
 
     // Send a request to your backend to like or unlike the post with the given postId
-    fetch(`http://localhost:3001/auth/${postId}/likePost`, {
+    fetch(`https://hospital-patient-database-management.onrender.com/auth/${postId}/likePost`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -295,7 +295,7 @@ export default function MainLogs() {
     };
 
     try {
-      const response = await fetch(`http://localhost:3001/auth/publishPost`, {
+      const response = await fetch(`https://hospital-patient-database-management.onrender.com/auth/publishPost`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -393,7 +393,7 @@ export default function MainLogs() {
       // Display loading message
       messageApi.loading({ content: 'Replacing data...', key: 'replaceUserMessage' });
   
-      const response = await fetch("http://localhost:3001/auth/replace", {
+      const response = await fetch("https://hospital-patient-database-management.onrender.com/auth/replace", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(bodyData),

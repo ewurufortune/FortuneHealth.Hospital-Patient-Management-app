@@ -60,7 +60,7 @@ const Form = () => {
 
 
   const register = async (values, onSubmitProps) => {
-    messageApi.loading({ content: "Creating A New Save... this might take a minute", key: "registerMessage", duration:20000 });
+    messageApi.loading({ content: "Creating A New Account... this will take a minute", key: "registerMessage", duration:20000 });
 
     // this allows us to send form info with image
     const formData = new FormData();
@@ -70,7 +70,7 @@ const Form = () => {
     formData.append("picturePath", "mark.jpg");
 
     const savedUserResponse = await fetch(
-      "http://localhost:3001/auth/register",
+      "https://hospital-patient-database-management.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
@@ -93,7 +93,7 @@ const Form = () => {
     // Display loading message
     messageApi.loading({ content: "Logging in...", key: "LoginMessage", duration:0 });
     try {
-      const loggedInResponse = await fetch("http://localhost:3001/auth/login", {
+      const loggedInResponse = await fetch("https://hospital-patient-database-management.onrender.com/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
