@@ -16,7 +16,6 @@ import { useDispatch } from "react-redux";
 import { setLogin } from "state";
 import Dropzone from "react-dropzone";
 import FlexBetween from "components/FlexBetween";
-
 const registerSchema = yup.object().shape({
   firstName: yup.string().required("required"),
   email: yup

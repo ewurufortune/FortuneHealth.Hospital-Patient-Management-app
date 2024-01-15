@@ -32,7 +32,6 @@ const playerInformation = [
     children: (
       <>
         <UserActions />
-        <TriggerRandomEvent />
         <RelationshipEvents />
       </>
     ),
@@ -66,7 +65,6 @@ const playerInformation = [
     label: <span className="tabHeader">Messages</span>,
     children: (
       <>
-        <TriggerRandomEvent />
         <EventNotifications />
       </>
     ),
@@ -182,7 +180,6 @@ export default function OverallTab({ isDarkMode }) {
     ),
     children: (
       <>
-        <TriggerRandomEvent />
         <EventNotifications />
       </>
     ),

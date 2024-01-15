@@ -6,7 +6,7 @@ import {
   UserOutlined,
   LockOutlined,
 } from "@ant-design/icons";
-
+import AppFooter from "./footer";
 const { Content } = Layout;
 
 const LoginPage = () => {
@@ -204,6 +204,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
           </div>
         )}
       </Content>
+      <AppFooter />
     </Layout>
   );
 };
