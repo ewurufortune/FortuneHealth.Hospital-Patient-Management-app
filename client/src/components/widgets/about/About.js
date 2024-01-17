@@ -71,7 +71,7 @@ const aim = (
     <h1 style={{ color: '#9EDDFF' }}>Work In Progress</h1>
   
 
-    <h1>Welcome to MediConnect</h1>
+    <h1>Welcome to FortuneHealth</h1>
     <p>Creating a database of patients for small hospitals & clinics to work with, with individual personnel repositories to facilitate a truly separate workspace while keeping the collaborative spirit.</p>
 
     <h2>Key Features:</h2>
@@ -83,9 +83,9 @@ const aim = (
         <li>Streamlined Clinic Operations</li>
     </ul>
 
-    <p>At MediConnect, our aim is to provide small hospitals and clinics with a powerful tool for managing patient information efficiently. The individual personnel repositories ensure that each member of the healthcare team has their dedicated workspace, fostering collaboration while maintaining privacy and organization.</p>
+    <p>At FortuneHealth, our aim is to provide small hospitals and clinics with a powerful tool for managing patient information efficiently. The individual personnel repositories ensure that each member of the healthcare team has their dedicated workspace, fostering collaboration while maintaining privacy and organization.</p>
 
-    <p>Take advantage of MediConnect's features to streamline clinic operations and enhance patient care. Welcome to a new era of healthcare management!</p>
+    <p>Take advantage of FortuneHealth's features to streamline clinic operations and enhance patient care. Welcome to a new era of healthcare management!</p>
 
     <p>
       Ultimately, I'm creating this web app to address my own pain points as a reader and wrestling aficionado. In the nearest future (I hope), it will serve as a platform for creating and reading fantasy bookings in a way that enables both the reader and creator to explore a wider range of stories in one place without the loss of context that long bookings often suffer from.

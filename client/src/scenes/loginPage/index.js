@@ -57,11 +57,11 @@ const LoginPage = () => {
               level={1}
               style={{
                 fontWeight: "bold",
-                fontSize: `${fontSize}px`, // Set the calculated font size
+                fontSize: `${fontSize-5}px`, // Set the calculated font size
                 marginTop: "20px",
               }}
             >
-              Medi<span style={{ color: "blue" }}>Connect</span>
+              Fortune<span style={{ color: "blue" }}>Health</span>
             </Typography.Title>
 
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -87,7 +87,7 @@ const LoginPage = () => {
 </div>
 
             <p style={{ color: "red", display: window.innerWidth <= 768 ? "block" : "none" }}>
-  MediConnect is currently not compatible with mobile screens
+  FortuneHealth is currently not fully optimized for mobile screens, use a PC instead
 </p>
           </div>
         </div>
@@ -112,7 +112,7 @@ const LoginPage = () => {
         fontSize: "20px",
       }}
     >
-MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
+FortuneHealth: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
     <button
       icon={<ArrowRightOutlined />}
       onClick={handleShowLoginForm}
@@ -136,7 +136,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
         <div className="feature-content" style={{ fontSize: "16px" }}>
         <h3 style={{ fontSize: "24px", color: 'blue' }}>Empower Personalized Healthcare Insights</h3>
 <p>
-    Unlock a new level of healthcare management with MediConnect. Tailor your statistical data to match your unique needs and preferences. Whether it's patient records, vital signs, or treatment outcomes, MediConnect puts you in control. Our user-friendly interface ensures that your healthcare insights are presented in a clear and accessible format, empowering you with the information you need for informed decision-making.
+    Unlock a new level of healthcare management with FortuneHealth. Tailor your statistical data to match your unique needs and preferences. Whether it's patient records, vital signs, or treatment outcomes, FortuneHealth puts you in control. Our user-friendly interface ensures that your healthcare insights are presented in a clear and accessible format, empowering you with the information you need for informed decision-making.
 </p>
 
         </div>
@@ -147,7 +147,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
         <div className="feature-content" style={{ fontSize: "16px" }}>
           <h3 style={{ fontSize: "24px", color: 'blue' }}>Streamlined Collaboration for Enhanced Patient Care</h3>
           <p>
-    MediConnect goes beyond individual records, fostering seamless collaboration among healthcare professionals. Share vital patient information securely, streamline communication, and enhance overall patient care. Our platform is designed to break down silos, creating a unified and collaborative environment where every healthcare team member can contribute to the well-being of patients effectively.
+    FortuneHealth goes beyond individual records, fostering seamless collaboration among healthcare professionals. Share vital patient information securely, streamline communication, and enhance overall patient care. Our platform is designed to break down silos, creating a unified and collaborative environment where every healthcare team member can contribute to the well-being of patients effectively.
 </p>
         </div>
       </Col>
@@ -163,7 +163,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
         <div className="feature-content" style={{ fontSize: "16px" }}>
           <h3 style={{ fontSize: "24px", color: 'blue' }}>Effortless Administrative Management</h3>
           <p>
-    At MediConnect, we prioritize accessibility. Empower your patients by giving them secure access to their health records and treatment plans. Our user-friendly patient portal fosters engagement, allowing individuals to actively participate in their healthcare journey. By providing transparent and accessible information, we aim to strengthen the patient-provider relationship for improved overall well-being.
+    At FortuneHealth, we prioritize accessibility. Empower your patients by giving them secure access to their health records and treatment plans. Our user-friendly patient portal fosters engagement, allowing individuals to actively participate in their healthcare journey. By providing transparent and accessible information, we aim to strengthen the patient-provider relationship for improved overall well-being.
 </p>
         </div>
       </Col>
@@ -173,7 +173,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
   <div className="feature-content" style={{ fontSize: "16px" }}>
     <h3 style={{ fontSize: "24px", color: 'blue' }}>Enhanced Accessibility for Better Patient Engagement</h3>
     <p>
-    At MediConnect, we prioritize accessibility. Empower your patients by giving them secure access to their health records and treatment plans. Our user-friendly patient portal fosters engagement, allowing individuals to actively participate in their healthcare journey. By providing transparent and accessible information, we aim to strengthen the patient-provider relationship for improved overall well-being.
+    At FortuneHealth, we prioritize accessibility. Empower your patients by giving them secure access to their health records and treatment plans. Our user-friendly patient portal fosters engagement, allowing individuals to actively participate in their healthcare journey. By providing transparent and accessible information, we aim to strengthen the patient-provider relationship for improved overall well-being.
 </p>
   </div>
 </Col>
@@ -198,7 +198,7 @@ MediConnect: Bridging Healthcare, Uniting Wellness.    </Typography.Title>
               level={5}
               style={{ fontWeight: "500", marginBottom: "1.5rem" }}
             >
-              Login to a MediConnect save
+              Login to a FortuneHealth save
             </Typography.Title>
             <Form />
           </div>

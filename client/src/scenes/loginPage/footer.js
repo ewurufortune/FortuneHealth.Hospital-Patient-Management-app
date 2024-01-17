@@ -10,23 +10,21 @@ const AppFooter = () => {
       <Row justify="center">
         <Col>
           <Space size="large">
-            <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ewurufortune" target="_blank" rel="noopener noreferrer">
               <GithubOutlined style={{ fontSize: '20px' }} />
             </a>
             <a href="https://twitter.com/your-twitter" target="_blank" rel="noopener noreferrer">
               <TwitterOutlined style={{ fontSize: '20px' }} />
             </a>
-            <a href="https://instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
-              <InstagramOutlined style={{ fontSize: '20px' }} />
-            </a>
-            <a href="https://instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
+          
+            <a href="https://www.linkedin.com/in/fortuneewuru/" target="_blank" rel="noopener noreferrer">
               <LinkedinOutlined style={{ fontSize: '20px' }} />
             </a>
             
           </Space>
         </Col>
       </Row>
-      <p>Your additional footer content goes here</p>
+      <p>©Fortune Ewuru, 2024</p>
     </Footer>
   );
 };

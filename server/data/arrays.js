@@ -1373,7 +1373,7 @@ const recentEvents = [
     eventTypeId: "1694197990275",
     title: "Welcome!",
     description:
-      "Welcome To MediConnect\n\n This is where you will recieve notifications of events.",
+      "Welcome To FortuneHealth\n\n This is where you will recieve notifications of events.",
   },
 
   {

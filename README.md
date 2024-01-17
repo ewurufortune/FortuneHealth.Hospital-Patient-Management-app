@@ -1,8 +1,8 @@
-# MediConnect
+# FortuneHealth
 
 its Github but for hospital patient management ;}
 
-MediConnect is a secure and efficient system for managing and sharing hospital patient information. It provides a platform to streamline the handling of patient data, ensuring confidentiality, accessibility, and collaboration among healthcare professionals.
+FortuneHealth is a secure and efficient system for managing and sharing hospital patient information. It provides a platform to streamline the handling of patient data, ensuring confidentiality, accessibility, and collaboration among healthcare professionals.
 
 ## Features
 
@@ -18,18 +18,18 @@ MediConnect is a secure and efficient system for managing and sharing hospital p
 
 ## Getting Started
 
-Follow these steps to get a local development instance of MediConnect up and running:
+Follow these steps to get a local development instance of FortuneHealth up and running:
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/MediConnect.git
+    git clone https://github.com/yourusername/FortuneHealth.git
     ```
 
 2. Install dependencies:
 
     ```bash
-    cd MediConnect
+    cd FortuneHealth
     npm install
     ```
 
@@ -47,7 +47,7 @@ Visit [http://localhost:3000](http://localhost:3000) to access the application.
 
 ## Contributing
 
-We welcome contributions from the community. To contribute to MediConnect, follow these steps:
+We welcome contributions from the community. To contribute to FortuneHealth, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/new-feature`.
@@ -59,4 +59,4 @@ Please ensure that your contributions adhere to our [Code of Conduct](CODE_OF_CO
 
 ## License
 
-MediConnect is licensed under the [MIT License](LICENSE).
+FortuneHealth is licensed under the [MIT License](LICENSE).
