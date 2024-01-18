@@ -171,7 +171,7 @@ const Form = () => {
             {isRegister && (
               <>
                 <TextField
-                  label="World Name"
+                  label="Establishment Name"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.firstName || ""}
